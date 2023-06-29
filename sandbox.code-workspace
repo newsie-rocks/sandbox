@@ -4,5 +4,24 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.black-formatter",
+			"editor.formatOnSave": true,
+			"editor.codeActionsOnSave": {
+				"source.organizeImports": true
+			},
+		},
+		"isort.args": [
+			"--profile",
+			"black"
+		],
+		"material-icon-theme.folders.theme": "classic",
+		"material-icon-theme.hidesExplorerArrows": true,
+		"editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+		"editor.fontLigatures": true,
+		"notebook.output.wordWrap": true,
+		"editor.formatOnSave": true,
+		"notebook.formatOnSave.enabled": true,
+	}
 }
